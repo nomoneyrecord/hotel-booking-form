@@ -1,3 +1,24 @@
-img {
-  background: fill;
+body, 
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("Pittsburgh_Pennsylvania.jpeg");
+  
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: inline-block
 }
