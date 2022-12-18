@@ -3,6 +3,18 @@ html {
   height: 100%;
 }
 
+h1 {
+  color:greenyellow;
+  font-family:fantasy;
+  background-color: black;
+}
+
+h3 {
+  color:greenyellow;
+  font-family:fantasy;
+  background-color: black;
+}
+
 body {
   background-image: url("Pittsburgh_Pennsylvania.jpeg");
   
@@ -11,6 +23,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color:cyan;
 }
 
 .content-container {
@@ -19,6 +32,12 @@ body {
   align-items: center;
 }
 
-form {
-  display: inline-block
+.input-container {
+  min-width: 469px; 
 }
+
+.input-div {
+  width: 50%;
+  float: left;
+}
+

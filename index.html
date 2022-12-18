@@ -11,35 +11,52 @@
   <h1><strong>Three Rivers Resort</strong></h1>
   <h3>Pittsburgh's Finest Luxury Vacation Destination</h3>
 </div>
+
 <body>
   <form class="content-container">
-    <div>
-      <label for="first name:">First Name:</label>
-      <input type="text" name="first name:" id="first name:" required>
+    <div class="input-container">
+      <div class="input-div">
+        <label for="first name:">First Name:</label>
+        <input type="text" name="first name:" id="first name:" required>
+      </div>
+      <div class="input-div">
+        <label style="padding-left: 3px" for="last name:">Last Name:</label>
+        <input type="text" name="last name:" id="last name:" required>
+      </div>
     </div>
-    <div>
-      <label for="last name:">Last Name:</label>
-      <input type="text" name="last name:" id="last name:" required>
+
+    <div class="input-container">
+      <div class="input-div">
+        <label for="email:">Email:</label>
+        <input type="email" name="email:" id="email:" required>
+      </div>
+      <div class="input-div">
+        <label for="address:">Address:</label>
+        <input type="text" name="address:" id="address:" required>
+      </div>
     </div>
-    <div>
-      <label for="email:">Email:</label>
-      <input type="email:" name="email:" id="email:" required>
-    </div>
-    <div>
-      <label for="address:">Address:</label>
-      <input type="text" name="address:" id="address:" required>
-    </div>
-    <div>
-      <label> 
+
+    <div class="input-container">
+      <div class="input-div">
         <label for="rooms:">Rooms:</label>
-      <input type="number" name="rooms:" id="rooms:" min="1" max="2">
+        <input style="width: 147px" type="number" name="rooms:" id="rooms:" min="1" max="2" required>
+      </div>
+      <div class="input-div">
+        <label for="adults:">Adults:</label>
+        <input style="width: 147px" type="number" name="adults:" id="adults:" min="1" max="4" required>
+      </div>
     </div>
+
+    <div class="input-container">
+      <div class="input-div">
+        <label for="nights:">Nights:</label>
+        <input style="width: 147px" type="number" name="nights:" id="nights:" min="1" max="7" required>
+    </div>
+
     <div>
-      <label for="adults:">Adults:</label>
-      <input type="text" name="adults:" id="adults:" required>
-    </div>
     <button type="Confirm Reservation">Confirm Reservation
     </button>
+  </div>
   </form>
 </body>
 </html>
